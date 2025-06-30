@@ -52,7 +52,7 @@ lstmsync_func.cp38-win_amd64.pyd
 requirements.txt
 run.py
 ```
-- 先安装好cuda、pytorch等gpu环境，不懂则自行去csdn等平台查阅。
+- 先安装好python3.8、cuda、pytorch等gpu环境，不懂则自行去csdn等平台查阅。
 - 安装配置好ffmpeg环境变量
 - 上述都完成后执行:
 ```
