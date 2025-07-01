@@ -46,7 +46,7 @@
 
 ## 📑 使用说明
 
-- 下载权重文件压缩包zip：https://pan.baidu.com/s/1eVoloW07Z4pJ-pJSxrFPQw 提取码: 7wcx
+- 下载权重文件压缩包zip：https://pan.baidu.com/s/1_taYmPkm6mMWd0eCEUzeiA 提取码: nv7n
 - 下载后直接在根目录解压zip，目录结构：
 ```
 checkpoints
