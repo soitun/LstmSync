@@ -12,14 +12,14 @@
 ## 🔥 更新
 
 - `2025/06/30`: 开源192尺寸泛化权重
+- `2025/07/01`: 支持liunx系统兼容
 
 ## 📖 计划
 
-- `2025/07/05`: 支持liunx操作系统
+- `2025/07/15`: 开发api接口及界面支持
 
 ## 🏗️ 注意事项
 
-- 暂不支持liunx系统，当前仅支持windows。
 - 推理后的脸部左右遮罩模糊，可通过scale_h，scale_w进行调节，越大遮罩范围越小，该设置为比例，所以一次调整好后续无需调整。一般设置：scale_h=1.6， scale_w=3.6， 可自行再进行精调。
 - python版本必须为3.8、pytorch建议2.0+、cuda11.8等。
 - 4G+显存即可。
@@ -52,6 +52,7 @@
 checkpoints
 key.txt
 lstmsync_func.cp38-win_amd64.pyd
+lstmsync_func.cpython-38-x86_64-linux-gnu.so
 requirements.txt
 run.py
 ```
