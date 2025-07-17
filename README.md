@@ -2,8 +2,9 @@
 <div align="center">
 <h2 align="center">无需网络，本地4G显存即可使用的数字人泛化模型！效果可行能否给个小星星！</h2>
 <a href="https://b23.tv/RL1mGQR">作者主页：一码超人</a><br/>
-<a href="https://b23.tv/4CKlq4Y">宣传大使：浪子之心科技</a><br/>
 <a href="https://blog.csdn.net/weixin_47723549?type=blog">作者csdn：一码超人</a><br/>
+<a href="https://b23.tv/4CKlq4Y">宣传大使：浪子之心科技</a><br/>
+<a href="https://space.bilibili.com/3031494">宣传大使：刘悦的技术博客</a><br/>
 </div>
 
 ## 🏋️‍♂️ 合作企业
