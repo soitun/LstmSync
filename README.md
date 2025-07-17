@@ -14,15 +14,16 @@
 
 - `2025/06/30`: 开源192尺寸泛化权重
 - `2025/07/01`: 支持liunx系统兼容
+- `2025/07/17`: 新增python3.10版本支持，用于兼容50系显卡
 
 ## 📖 计划
 
-- `2025/07/15`: 开发api接口及界面支持
+- `2025/07/30`: 开发api接口及界面支持
 
 ## 🏗️ 注意事项
 
 - 推理后的脸部左右遮罩模糊，可通过scale_h，scale_w进行调节，越大遮罩范围越小，该设置为比例，所以一次调整好后续无需调整。一般设置：scale_h=1.6， scale_w=3.6， 可自行再进行精调。
-- python版本必须为3.8、pytorch建议2.0+、cuda11.8等。
+- python版本必须为3.8，如果显卡为50系则版本必须为3.10、pytorch建议2.0+、cuda11.8等。
 - 4G+显存即可。
 - windows安装insightface库可能存在编译失败问题，需安装Desktop development with C++，无脑安装即可。链接地址：https://download.visualstudio.microsoft.com/download/pr/e514a25b-a89d-4051-a63c-05ccd9be41e9/88d8e1df44172b28e92df1c11fc900aef2d6d6e7e75491467f4c507c07d31f13/vs_BuildTools.exe
 ![image](https://github.com/user-attachments/assets/7c5ae4bf-e7d0-45dd-ae58-41f7c55ba25e)
@@ -52,16 +53,19 @@
 ```
 checkpoints
 key.txt
-lstmsync_func.cp38-win_amd64.pyd
-lstmsync_func.cpython-38-x86_64-linux-gnu.so
+lstmsync_func.cp38-win_amd64.pyd or lstmsync_func.cp310-win_amd64.pyd // 根据自己python版本决定
+lstmsync_func.cpython-38-x86_64-linux-gnu.so or lstmsync_func.cpython-310-x86_64-linux-gnu.so // 根据自己python版本决定
 requirements.txt
 run.py
 ```
-- 先安装好python3.8、cuda、pytorch等gpu环境，不懂则自行去csdn等平台查阅。
+- 先安装好python3.8或python3.10、cuda、pytorch等gpu环境，不懂则自行去csdn等平台查阅。
 - 安装配置好ffmpeg环境变量
 - 上述都完成后执行:
 ```
-pip install -r requirements.txt
+pip install -r requirements.txt // python3.8版本支持
+```
+```
+pip install -r requirements-50.txt // 50系显卡，python3.10版本支持
 ```
 - 查看run.py脚本，参数说明有注释，该脚本为调用示例，可自行灵活使用。
 
