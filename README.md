@@ -22,9 +22,11 @@
 
 - `2025/09/01`: 开发api接口及界面支持
 
-## 🏗️ 注意事项
+## 🏗️ 注意事项【一定要看完！】
 
-- 注意！注意！注意！切勿修改权重文件名称！
+- 新版本请重新去下方百度云盘地址下载权重文件！内包含192、256、384权重文件。
+- 模型不含带超分功能，所以推理视频一定要清晰！清晰！清晰！不然如果推理视频不清晰，推理出来也不清晰！
+- 注意！注意！注意！切勿修改权重pth文件名称！使用不同分辨率推理，请在human_path参数上更换pth即可，pth名称就是模型的人脸尺寸。
 - weight_sync参数为调节口型开合度，又可以理解为强制唇同步，默认0.5，如果感觉过于夸张则调小，如感觉同步还是差一些则调大，最小为0，最大为1。
 - 推理后的脸部左右遮罩模糊，可通过scale_h，scale_w进行调节，越大遮罩范围越小，该设置为比例，所以一次调整好后续无需调整。一般设置：scale_h=1.6， scale_w=3.6， 可自行再进行精调。
 - python版本必须为3.8，如果显卡为50系则版本必须为3.10、pytorch建议2.0+、cuda11.8等。
@@ -37,18 +39,51 @@
 
 <table class="center">
   <tr style="font-weight: bolder;text-align:center;">
-        <td width="50%"><b>demo1</b></td>
-        <td width="50%"><b>demo2</b></td>
+        <td width="50%"><b>192人脸尺寸【demo1】</b></td>
+        <td width="50%"><b>192人脸尺寸【demo2】</b></td>
   </tr>
   <tr>
     <td>
-      <video src=https://github.com/user-attachments/assets/e8067ba9-b239-40c0-afda-40fc006cd369 controls preload></video>
+      <video src=https://github.com/user-attachments/assets/08a01251-b682-49d3-8243-cd5ceeb2f6f5 controls preload></video>
     </td>
     <td>
-      <video src=https://github.com/user-attachments/assets/d3490d66-ed7d-4245-abd8-a55b4ca7e8e2 controls preload></video>
+      <video src=https://github.com/user-attachments/assets/6c00f041-cddc-417e-9f90-6cb86693f43d controls preload></video>
     </td>
   </tr>
 </table>
+
+
+<table class="center">
+  <tr style="font-weight: bolder;text-align:center;">
+        <td width="50%"><b>256人脸尺寸【demo1】</b></td>
+        <td width="50%"><b>256人脸尺寸【demo2】</b></td>
+  </tr>
+  <tr>
+    <td>
+      <video src=https://github.com/user-attachments/assets/738bddd1-b46d-448b-b67e-d67d3226222b controls preload></video>
+    </td>
+    <td>
+      <video src=https://github.com/user-attachments/assets/c52c4ffc-1ea9-4e51-907c-bbb9b8d8a9e0 controls preload></video>
+    </td>
+  </tr>
+</table>
+
+
+<table class="center">
+  <tr style="font-weight: bolder;text-align:center;">
+        <td width="50%"><b>384人脸尺寸【demo1】</b></td>
+        <td width="50%"><b>384人脸尺寸【demo2】</b></td>
+  </tr>
+  <tr>
+    <td>
+      <video src=https://github.com/user-attachments/assets/abe3a2ac-b71c-449c-aa19-c0d1cf90a72d controls preload></video>
+    </td>
+    <td>
+      <video src=https://github.com/user-attachments/assets/daefb100-b776-45b3-9d9b-fc26e3d04a20 controls preload></video>
+    </td>
+  </tr>
+</table>
+
 
 ## 📑 使用说明
 
