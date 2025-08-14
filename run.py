@@ -3,6 +3,8 @@ import lstmsync_func
 if __name__ == '__main__':
 
     c = lstmsync_func.LstmSync(
+        # human_path="./checkpoints/192.pth",
+        # human_path="./checkpoints/256.pth",
         human_path="./checkpoints/384.pth", # # 同步权重，切勿修改权重文件名称！
         hubert_path="./checkpoints/chinese-hubert-large", # 音频权重
         batch_size=4,  # batch
