@@ -17,14 +17,17 @@
 - `2025/07/01`: 支持liunx系统兼容
 - `2025/07/17`: 新增python3.10版本支持，用于兼容50系显卡
 - `2025/08/14`: 新增256、384人脸尺寸，更新了key文件，新增fp32 or fp16设置、口型大小调节等超参数设置。
+- `2025/09/11`: 新增唇部美化版256尺寸权重，效果类似heygem。demo效果在下面，分为唇部美化版本和原先的正常版本，如果想更还原本人牙齿建议用正常版本，否所可以使用唇部美化版本。
 
 ## 📖 计划
 
-- `2025/09/10`: 发布类似heygem美化效果权重
+- `2025/09/15`: 对mac的推理支持。
+- `2025/09/25`: 陆续开放唇部美化版权重192、384尺寸。
 
 ## 🏗️ 注意事项【一定要看完！】
 
 - 【商用说明】本项目作为sdk可免费商用，本项目非无私奉献核心代码与学术研究，仅仅是提供给大家免费使用，所以请攻击者或同行手下留情，核心不会开源的。莫要凉了这炽热的心~
+- key.txt文件说明：当提示key无法使用时，请关注本仓库来更新替换key.txt。在此声明本项目不会因key导致断档使用，所以当发现key无法使用时只需关注仓库去更新就好了。
 - 新版本请重新去下方百度云盘地址下载权重文件！内包含192、256、384权重文件。
 - 音频必须为16khz格式。
 - 模型不含带超分功能，所以推理视频一定要清晰！清晰！清晰！不然如果推理视频不清晰，推理出来也不清晰！
@@ -36,8 +39,24 @@
 - windows安装insightface库可能存在编译失败问题，需安装Desktop development with C++，无脑安装即可。链接地址：https://download.visualstudio.microsoft.com/download/pr/e514a25b-a89d-4051-a63c-05ccd9be41e9/88d8e1df44172b28e92df1c11fc900aef2d6d6e7e75491467f4c507c07d31f13/vs_BuildTools.exe
 ![image](https://github.com/user-attachments/assets/7c5ae4bf-e7d0-45dd-ae58-41f7c55ba25e)
 
+## 🎬 唇部美化版本Demo
 
-## 🎬 Demo
+<table class="center">
+  <tr style="font-weight: bolder;text-align:center;">
+        <td width="50%"><b>256人脸尺寸【demo1】</b></td>
+        <td width="50%"><b>256人脸尺寸【demo2】</b></td>
+  </tr>
+  <tr>
+    <td>
+      <video src=https://github.com/user-attachments/assets/9f4624f5-de40-4441-a5b8-04f0a993bf27 controls preload></video>
+    </td>
+    <td>
+      <video src=https://github.com/user-attachments/assets/15f78778-1afe-404a-a88c-54464b90678c controls preload></video>
+    </td>
+  </tr>
+</table>
+
+## 🎬 原先正常版本Demo
 
 <table class="center">
   <tr style="font-weight: bolder;text-align:center;">
@@ -90,6 +109,7 @@
 ## 📑 使用说明
 
 - 下载权重文件压缩包zip：https://pan.baidu.com/s/1DvR4P0rqPsU0qL_dOWnG0g 提取码: uvyp
+- 唇部美化版权重：https://pan.baidu.com/s/1Lk3PV4PEk5ZCCPedQcSPtQ 提取码: 6iu3
 - 下载后直接在根目录解压zip，目录结构：
 ```
 checkpoints
