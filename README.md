@@ -18,6 +18,7 @@
 - `2025/07/17`: 新增python3.10版本支持，用于兼容50系显卡
 - `2025/08/14`: 新增256、384人脸尺寸，更新了key文件，新增fp32 or fp16设置、口型大小调节等超参数设置。
 - `2025/09/11`: 新增唇部美化版256尺寸权重，效果类似heygem。demo效果在下面，分为唇部美化版本和原先的正常版本，如果想更还原本人牙齿建议用正常版本，否则可以使用唇部美化版本。
+- `2025/09/12`: 更新更优的唇部美化版256尺寸权重，9-11下载的用户请在下方【使用说明】的链接中重新下载更新。
 
 ## 📖 计划
 
@@ -48,10 +49,10 @@
   </tr>
   <tr>
     <td>
-      <video src=https://github.com/user-attachments/assets/9f4624f5-de40-4441-a5b8-04f0a993bf27 controls preload></video>
+      <video src=https://github.com/user-attachments/assets/5c8ce599-41b5-40cc-9347-155692af0aac controls preload></video>
     </td>
     <td>
-      <video src=https://github.com/user-attachments/assets/15f78778-1afe-404a-a88c-54464b90678c controls preload></video>
+      <video src=https://github.com/user-attachments/assets/eceecae9-f257-477a-b2f2-79c3d3b483a1 controls preload></video>
     </td>
   </tr>
 </table>
