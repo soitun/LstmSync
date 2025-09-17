@@ -4,8 +4,8 @@ if __name__ == '__main__':
 
     c = lstmsync_func.LstmSync(
         # human_path="./checkpoints/192.pth",
-        # human_path="./checkpoints/256.pth",
-        human_path="./checkpoints/384.pth", # # 同步权重，切勿修改权重文件名称！
+        # human_path="./checkpoints/384.pth",
+        human_path="./checkpoints/256.pth", # # 同步权重，切勿修改权重文件名称！
         hubert_path="./checkpoints/chinese-hubert-large", # 音频权重
         batch_size=4,  # batch
         sync_offset=0,  # 音画同步调节
@@ -18,7 +18,7 @@ if __name__ == '__main__':
     out = c.run(
         video_path="./1.mp4",  # 输入的视频
         video_fps25_path="./fps25_temp.mp4",  # 输入的视频后转25fps的，最终会用这个去推理
-        video_temp_path="./temp.mp4",  # 输出临时视频，最终会用这个去与音频合成
+        video_temp_path="./temp",  # 输出临时视频，最终会用这个去与音频合成，注意没有文件后缀，生成固定avi文件格式！
         audio_path="./1.wav",  # 输入的音频
         audio_temp_path="./temp.wav",  # 输入的音频后转16khz的，最终会用这个去推理
         video_out_path="./res.mp4"  # 输出的最终视频
