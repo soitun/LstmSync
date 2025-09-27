@@ -13,6 +13,7 @@ if __name__ == '__main__':
         scale_w=3.6,  # 遮罩宽度大小控制，比例的，如果脸颊左右遮罩严重则调大
         weight_type="fp32",  # fp32 or fp16，数据类型，不支持fp16显卡使用fp32
         weight_sync=0.5, # 0 到 1， 0.5为默认值， 用于控制同步口型张合度。 
+        gpu_idx=0,  # 使用的GPU编号，默认0
         key_file="./key.txt"  # 必须存在
     )
     out = c.run(
