@@ -22,7 +22,7 @@
 - `2025/09/17`: 调整ffmpeg视频编码参数，解决视频整体画面压缩严重过度失真问题。
 - `2025/09/27`: 新增指定gpu参数，请更新pyd或so文件，参数设置请看run.py。
 - `2025/10/13`: 【作废】新增类似heygem效果的美化版256、384人脸尺寸权重。https://pan.baidu.com/s/1Lk3PV4PEk5ZCCPedQcSPtQ 提取码: 6iu3
-- `2025/12/16`: 清除了所有尺寸权重，效果不是很好，目前上架全新384权重，请重新下载：https://pan.baidu.com/s/1WiI197OvOn2aBh3oFp3Wfw 提取码: 8s3s 
+- `2025/12/16`: 清除了所有尺寸权重，效果不是很好，目前上架全新384权重，请重新下载替换权重文件：【https://pan.baidu.com/s/1WiI197OvOn2aBh3oFp3Wfw 提取码: 8s3s】 注意请务必替换pyd或so文件！！！
   
 ## 📖 计划
 
@@ -64,7 +64,7 @@
 
 ## 📑 使用说明
 
-- 下载权重文件压缩包zip：https://pan.baidu.com/s/1WiI197OvOn2aBh3oFp3Wfw 提取码: 8s3s 
+- 下载权重文件压缩包zip：https://pan.baidu.com/s/1WiI197OvOn2aBh3oFp3Wfw 提取码: 8s3s
 - 下载后直接在根目录解压zip，目录结构：
 ```
 checkpoints
