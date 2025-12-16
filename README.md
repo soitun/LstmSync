@@ -21,7 +21,8 @@
 - `2025/09/12`: 更新更优的唇部美化版256尺寸权重，9-11下载的用户请在下方【使用说明】的链接中重新下载更新。
 - `2025/09/17`: 调整ffmpeg视频编码参数，解决视频整体画面压缩严重过度失真问题。
 - `2025/09/27`: 新增指定gpu参数，请更新pyd或so文件，参数设置请看run.py。
-- `2025/10/13`: 新增类似heygem效果的美化版256、384人脸尺寸权重。https://pan.baidu.com/s/1Lk3PV4PEk5ZCCPedQcSPtQ 提取码: 6iu3
+- `2025/10/13`: 【作废】新增类似heygem效果的美化版256、384人脸尺寸权重。https://pan.baidu.com/s/1Lk3PV4PEk5ZCCPedQcSPtQ 提取码: 6iu3
+- `2025/12/16`: 清除了所有尺寸权重，效果不是很好，目前上架全新384权重，请重新下载：https://pan.baidu.com/s/1WiI197OvOn2aBh3oFp3Wfw 提取码: 8s3s 
   
 ## 📖 计划
 
@@ -43,12 +44,12 @@
 - windows安装insightface库可能存在编译失败问题，需安装Desktop development with C++，无脑安装即可。链接地址：https://download.visualstudio.microsoft.com/download/pr/e514a25b-a89d-4051-a63c-05ccd9be41e9/88d8e1df44172b28e92df1c11fc900aef2d6d6e7e75491467f4c507c07d31f13/vs_BuildTools.exe
 ![image](https://github.com/user-attachments/assets/7c5ae4bf-e7d0-45dd-ae58-41f7c55ba25e)
 
-## 🎬 唇部美化版本Demo
+## 🎬 Demo
 
 <table class="center">
   <tr style="font-weight: bolder;text-align:center;">
-        <td width="50%"><b>256人脸尺寸【demo1】</b></td>
-        <td width="50%"><b>256人脸尺寸【demo2】</b></td>
+        <td width="50%"><b>384人脸尺寸【demo1】</b></td>
+        <td width="50%"><b>384人脸尺寸【demo2】</b></td>
   </tr>
   <tr>
     <td>
@@ -60,60 +61,10 @@
   </tr>
 </table>
 
-## 🎬 原先正常版本Demo
-
-<table class="center">
-  <tr style="font-weight: bolder;text-align:center;">
-        <td width="50%"><b>192人脸尺寸【demo1】</b></td>
-        <td width="50%"><b>192人脸尺寸【demo2】</b></td>
-  </tr>
-  <tr>
-    <td>
-      <video src=https://github.com/user-attachments/assets/08a01251-b682-49d3-8243-cd5ceeb2f6f5 controls preload></video>
-    </td>
-    <td>
-      <video src=https://github.com/user-attachments/assets/6c00f041-cddc-417e-9f90-6cb86693f43d controls preload></video>
-    </td>
-  </tr>
-</table>
-
-
-<table class="center">
-  <tr style="font-weight: bolder;text-align:center;">
-        <td width="50%"><b>256人脸尺寸【demo1】</b></td>
-        <td width="50%"><b>256人脸尺寸【demo2】</b></td>
-  </tr>
-  <tr>
-    <td>
-      <video src=https://github.com/user-attachments/assets/738bddd1-b46d-448b-b67e-d67d3226222b controls preload></video>
-    </td>
-    <td>
-      <video src=https://github.com/user-attachments/assets/c52c4ffc-1ea9-4e51-907c-bbb9b8d8a9e0 controls preload></video>
-    </td>
-  </tr>
-</table>
-
-
-<table class="center">
-  <tr style="font-weight: bolder;text-align:center;">
-        <td width="50%"><b>384人脸尺寸【demo1】</b></td>
-        <td width="50%"><b>384人脸尺寸【demo2】</b></td>
-  </tr>
-  <tr>
-    <td>
-      <video src=https://github.com/user-attachments/assets/abe3a2ac-b71c-449c-aa19-c0d1cf90a72d controls preload></video>
-    </td>
-    <td>
-      <video src=https://github.com/user-attachments/assets/daefb100-b776-45b3-9d9b-fc26e3d04a20 controls preload></video>
-    </td>
-  </tr>
-</table>
-
 
 ## 📑 使用说明
 
-- 下载权重文件压缩包zip：https://pan.baidu.com/s/1DvR4P0rqPsU0qL_dOWnG0g 提取码: uvyp
-- 唇部美化版权重：https://pan.baidu.com/s/1Lk3PV4PEk5ZCCPedQcSPtQ 提取码: 6iu3
+- 下载权重文件压缩包zip：https://pan.baidu.com/s/1WiI197OvOn2aBh3oFp3Wfw 提取码: 8s3s 
 - 下载后直接在根目录解压zip，目录结构：
 ```
 checkpoints
