@@ -39,7 +39,7 @@
 - 注意！注意！注意！切勿修改权重pth文件名称！使用不同分辨率推理，请在human_path参数上更换pth即可，pth名称就是模型的人脸尺寸。
 - weight_sync参数为调节口型开合度，又可以理解为强制唇同步，默认0.5，如果感觉过于夸张则调小，如感觉同步还是差一些则调大，最小为0，最大为1。
 - 推理后的脸部左右遮罩模糊，可通过scale_h，scale_w进行调节，越大遮罩范围越小，该设置为比例，所以一次调整好后续无需调整。一般设置：scale_h=1.6， scale_w=3.6， 可自行再进行精调。
-- python版本必须为3.8，如果显卡为50系则版本必须为3.10、pytorch建议2.0+、cuda11.8等。
+- python版本必须为3.10、pytorch建议2.0+、cuda12+等。
 - 4G+显存即可。
 - windows安装insightface库可能存在编译失败问题，需安装Desktop development with C++，无脑安装即可。链接地址：https://download.visualstudio.microsoft.com/download/pr/e514a25b-a89d-4051-a63c-05ccd9be41e9/88d8e1df44172b28e92df1c11fc900aef2d6d6e7e75491467f4c507c07d31f13/vs_BuildTools.exe
 ![image](https://github.com/user-attachments/assets/7c5ae4bf-e7d0-45dd-ae58-41f7c55ba25e)
@@ -53,10 +53,10 @@
   </tr>
   <tr>
     <td>
-      <video src=https://github.com/user-attachments/assets/5c8ce599-41b5-40cc-9347-155692af0aac controls preload></video>
+      <video src=https://github.com/user-attachments/assets/f862ed5f-462d-4057-b03a-ff2758e7adad controls preload></video>
     </td>
     <td>
-      <video src=https://github.com/user-attachments/assets/eceecae9-f257-477a-b2f2-79c3d3b483a1 controls preload></video>
+      <video src=https://github.com/user-attachments/assets/f984022a-2490-45d5-ad7f-d1336b7db55f controls preload></video>
     </td>
   </tr>
 </table>
@@ -69,17 +69,14 @@
 ```
 checkpoints
 key.txt
-lstmsync_func.cp38-win_amd64.pyd or lstmsync_func.cp310-win_amd64.pyd // 根据自己python版本决定
-lstmsync_func.cpython-38-x86_64-linux-gnu.so or lstmsync_func.cpython-310-x86_64-linux-gnu.so // 根据自己python版本决定
+lstmsync_func.cp310-win_amd64.pyd  // windows系统
+lstmsync_func.cpython-310-x86_64-linux-gnu.so // liunx系统
 requirements.txt
 run.py
 ```
-- 先安装好python3.8或python3.10、cuda、pytorch等gpu环境，不懂则自行去csdn等平台查阅。
+- 先安装好python3.10、cuda、pytorch等gpu环境，不懂则自行去csdn等平台查阅。
 - 安装配置好ffmpeg环境变量
 - 上述都完成后执行:
-```
-pip install -r requirements.txt // python3.8版本支持
-```
 ```
 pip install -r requirements-50.txt // 50系显卡，python3.10版本支持
 ```
@@ -89,7 +86,7 @@ pip install -r requirements-50.txt // 50系显卡，python3.10版本支持
 ## 联系
 |  如需商务合作，加微信| 加群反馈与技术交流                                                                       |
 |-------------------|------------------------------------------------------------------------------------------|
-| ![微信](https://github.com/user-attachments/assets/e95e42a2-a6ec-4fbd-b65a-28a08aa11eaf) | ![微信群聊](https://github.com/user-attachments/assets/cefa7471-5aa1-4fd8-8121-049c8875af10) |
+| ![微信](https://github.com/user-attachments/assets/e95e42a2-a6ec-4fbd-b65a-28a08aa11eaf) | ![微信群聊](https://github.com/user-attachments/assets/083862bc-3458-4cbc-aac0-7775fd7cb89f) |
 
 
 
