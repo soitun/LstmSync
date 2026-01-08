@@ -3,9 +3,7 @@ import lstmsync_func
 if __name__ == '__main__':
 
     c = lstmsync_func.LstmSync(
-        # human_path="./checkpoints/192.pth",
-        # human_path="./checkpoints/384.pth",
-        human_path="./checkpoints/256.pth", # # 同步权重，切勿修改权重文件名称！
+        human_path="./checkpoints/384.pth", # # 同步权重，切勿修改权重文件名称！
         hubert_path="./checkpoints/chinese-hubert-large", # 音频权重
         batch_size=4,  # batch
         sync_offset=0,  # 音画同步调节
@@ -24,4 +22,5 @@ if __name__ == '__main__':
         audio_temp_path="./temp.wav",  # 输入的音频后转16khz的，最终会用这个去推理
         video_out_path="./res.mp4"  # 输出的最终视频
     )
+
     print(out)
