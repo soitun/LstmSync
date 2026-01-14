@@ -87,6 +87,7 @@ pip install -r requirements-50.txt // 50系显卡，python3.10版本支持
 ## 联系
 |  如需商务合作，加微信| 加群反馈与技术交流                                                                       |
 |-------------------|------------------------------------------------------------------------------------------|
-| ![微信](https://github.com/user-attachments/assets/e95e42a2-a6ec-4fbd-b65a-28a08aa11eaf) | ![微信群聊](https://github.com/user-attachments/assets/2d03a072-321a-4d8f-a07a-5048fd82c835) |
+| ![微信](https://github.com/user-attachments/assets/e95e42a2-a6ec-4fbd-b65a-28a08aa11eaf) | ![微信群聊](https://github.com/user-attachments/assets/038c0de1-0451-4f9b-9d38-79bff9d12987) |
+
 
 
