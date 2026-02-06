@@ -24,7 +24,7 @@
 - `2025/10/13`: 【作废】新增类似heygem效果的美化版256、384人脸尺寸权重。https://pan.baidu.com/s/1Lk3PV4PEk5ZCCPedQcSPtQ 提取码: 6iu3
 - `2025/12/16`: 清除了所有尺寸权重，效果不是很好，目前上架全新384权重，请重新下载替换权重文件：【https://pan.baidu.com/s/1WiI197OvOn2aBh3oFp3Wfw 提取码: 8s3s】 注意请务必替换pyd或so文件！！！ 【作废】
 - `2026/01/07`: 优化384尺寸权重清晰度，稳定口型。优化推理速度，提升30%！请重新下载替换权重文件：【https://pan.baidu.com/s/15ZBA7pIX-Z_r18jOmjgoIg 提取码: xek7】 注意请务必替换pyd或so文件！！！
-- `2026/02/06`: 已使用旧版本的，本次更新需重新下载权重和替换pyd、so文件！请重新下载替换权重文件：【https://pan.baidu.com/s/1IuYvbpCD1tOkyyiq_uIYvw 提取码: maiw】
+- `2026/02/06`: 已使用旧版本的，本次更新需重新下载权重和替换pyd、so文件！请重新下载替换权重文件：【https://pan.baidu.com/s/1IuYvbpCD1tOkyyiq_uIYvw 提取码: maiw】 
   
 ## 📖 计划
 
@@ -51,19 +51,21 @@
 <table class="center">
   <tr style="font-weight: bolder;text-align:center;">
         <td width="33%"><b>原视频</b></td>
-        <td width="33%"><b>非美化版</b></td>
-        <td width="33%"><b>美化版</b></td>
+        <td width="33%"><b>非美化256.o</b></td>
+        <td width="33%"><b>美化版256.m</b></td>
   </tr>
   <tr>
     <td>
-      <video src=https://github.com/user-attachments/assets/4d7e2840-87d9-44cd-855f-26e37b1d2586 controls preload></video>
+      <video src=https://github.com/user-attachments/assets/5d02ac75-0ce1-40e5-91e1-2f592918c414 controls preload></video>
     </td>
     <td>
-      <video src=https://github.com/user-attachments/assets/f984022a-2490-45d5-ad7f-d1336b7db55f controls preload></video>
+      <video src=https://github.com/user-attachments/assets/4eeed293-202b-4d6a-a32f-50d072c89db1 controls preload></video>
+    </td>
+    <td>
+      <video src=https://github.com/user-attachments/assets/be85fec2-bf51-4065-ac2c-c6e69de23c43 controls preload></video>
     </td>
   </tr>
 </table>
-
 
 
 ## 📑 使用说明
