@@ -3,7 +3,9 @@ import lstmsync_func
 if __name__ == '__main__':
 
     c = lstmsync_func.LstmSync(
-        human_path="./checkpoints/384.pth", # # 同步权重，切勿修改权重文件名称！
+        # human_path="./checkpoints/256.o.pth", # 256尺寸非美化版本，更偏向真实。非锐化！
+        # human_path="./checkpoints/384.m.pth", # 384尺寸美化版本
+        human_path="./checkpoints/256.m.pth", # 256尺寸美化版本
         hubert_path="./checkpoints/chinese-hubert-large", # 音频权重
         batch_size=4,  # batch
         sync_offset=0,  # 音画同步调节
@@ -24,3 +26,4 @@ if __name__ == '__main__':
     )
 
     print(out)
+
