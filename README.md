@@ -24,11 +24,12 @@
 - `2025/10/13`: 【作废】新增类似heygem效果的美化版256、384人脸尺寸权重。https://pan.baidu.com/s/1Lk3PV4PEk5ZCCPedQcSPtQ 提取码: 6iu3
 - `2025/12/16`: 清除了所有尺寸权重，效果不是很好，目前上架全新384权重，请重新下载替换权重文件：【https://pan.baidu.com/s/1WiI197OvOn2aBh3oFp3Wfw 提取码: 8s3s】 注意请务必替换pyd或so文件！！！ 【作废】
 - `2026/01/07`: 优化384尺寸权重清晰度，稳定口型。优化推理速度，提升30%！请重新下载替换权重文件：【https://pan.baidu.com/s/15ZBA7pIX-Z_r18jOmjgoIg 提取码: xek7】 注意请务必替换pyd或so文件！！！
+- `2026/02/06`: 已使用旧版本的，本次更新需重新下载权重和替换pyd、so文件！请重新下载替换权重文件：【https://pan.baidu.com/s/1IuYvbpCD1tOkyyiq_uIYvw 提取码: maiw】
   
 ## 📖 计划
 
 - `-`: 对mac的推理支持【暂时搁置】。
-- `2025/10/25`: 解决超长音频导致显存爆炸问题。
+- `2026/03/01`: 解决超长音频导致显存爆炸问题。
 
 ## 🏗️ 注意事项【一定要看完！】
 
@@ -49,12 +50,13 @@
 
 <table class="center">
   <tr style="font-weight: bolder;text-align:center;">
-        <td width="50%"><b>384人脸尺寸【demo1】</b></td>
-        <td width="50%"><b>384人脸尺寸【demo2】</b></td>
+        <td width="33%"><b>原视频</b></td>
+        <td width="33%"><b>非美化版</b></td>
+        <td width="33%"><b>美化版</b></td>
   </tr>
   <tr>
     <td>
-      <video src=https://github.com/user-attachments/assets/f862ed5f-462d-4057-b03a-ff2758e7adad controls preload></video>
+      <video src=https://github.com/user-attachments/assets/4d7e2840-87d9-44cd-855f-26e37b1d2586 controls preload></video>
     </td>
     <td>
       <video src=https://github.com/user-attachments/assets/f984022a-2490-45d5-ad7f-d1336b7db55f controls preload></video>
@@ -63,9 +65,10 @@
 </table>
 
 
+
 ## 📑 使用说明
 
-- 下载权重文件压缩包zip：https://pan.baidu.com/s/15ZBA7pIX-Z_r18jOmjgoIg 提取码: xek7
+- 下载权重文件压缩包zip：https://pan.baidu.com/s/1IuYvbpCD1tOkyyiq_uIYvw 提取码: maiw
 - 下载后直接在根目录解压zip，目录结构：
 ```
 checkpoints
@@ -87,7 +90,6 @@ pip install -r requirements-50.txt // 50系显卡，python3.10版本支持
 ## 联系
 |  如需商务合作，加微信| 加群反馈与技术交流                                                                       |
 |-------------------|------------------------------------------------------------------------------------------|
-| ![微信](https://github.com/user-attachments/assets/e95e42a2-a6ec-4fbd-b65a-28a08aa11eaf) | ![微信群聊](https://github.com/user-attachments/assets/bc6add89-5ee0-4229-b6a1-0a3732c86f65) |
-
+| ![微信](https://github.com/user-attachments/assets/e95e42a2-a6ec-4fbd-b65a-28a08aa11eaf) | ![微信群聊](https://github.com/user-attachments/assets/a41ad93f-b24f-43e5-ad0f-bbd45e568400) |
 
 
