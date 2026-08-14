@@ -1,0 +1,50 @@
+# Core dependencies for vae_lstm_sync_tuili
+
+# Deep Learning - 根据你的CUDA版本安装（选择对应的命令）
+# ========== PyTorch 安装命令（根据CUDA版本二选一）==========
+# CUDA 11.6:
+#   pip install torch>=2.0.0 torchvision>=0.15.0 --index-url https://download.pytorch.org/whl/cu116
+#
+# CUDA 11.7:
+#   pip install torch>=2.0.0 torchvision>=0.15.0 --index-url https://download.pytorch.org/whl/cu117
+#
+# CUDA 11.8:
+#   pip install torch>=2.0.0 torchvision>=0.15.0 --index-url https://download.pytorch.org/whl/cu118
+#
+# CUDA 12.1:
+#   pip install torch>=2.0.0 torchvision>=0.15.0 --index-url https://download.pytorch.org/whl/cu121
+#
+# CUDA 12.4+:
+#   pip install torch>=2.0.0 torchvision>=0.15.0 --index-url https://download.pytorch.org/whl/cu124
+# torch>=2.0.0
+# torchvision>=0.15.0
+
+# ONNX Runtime - 根据CUDA版本选择
+# ========== ONNX Runtime GPU 版本 ==========
+# CUDA 11.x: onnxruntime-gpu>=1.16.0
+# CUDA 12.x: onnxruntime-gpu>=1.18.0
+# 或使用 onnxruntime (CPU版本)
+onnxruntime-gpu==1.18.1
+
+# Computer Vision
+opencv-python>=4.8.0
+Pillow>=10.0.0
+kornia>=0.7.0
+
+# Face Detection
+insightface>=0.7.3
+
+# Audio Processing
+soundfile>=0.12.0
+transformers>=4.30.0
+
+# Utilities
+numpy>=1.24.0
+einops>=0.6.0
+tqdm>=4.65.0
+cryptography>=41.0.0
+PyJWT>=2.0.0
+
+# System requirement: ffmpeg (not a Python package)
+# Install via: conda install -c conda-forge ffmpeg
+# Or download from: https://ffmpeg.org/download.html
