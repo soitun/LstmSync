@@ -1,7 +1,7 @@
 
-<h1 align="center">LstmSync-V2</h1>
+<h1 align="center">LstmSync-v2</h1>
 <div align="center">
-<h2 align="center">超轻量流式数字人泛化模型！效果可行能否给个小星星！</h2>
+<h2 align="center">超轻量无限时长数字人泛化模型！效果可行能否给个小星星！永久免费！</h2>
 <a href="https://b23.tv/RL1mGQR">作者主页：一码超人</a><br/>
 <a href="https://blog.csdn.net/weixin_47723549?type=blog">作者csdn：一码超人</a><br/>
 <a href="https://b23.tv/4CKlq4Y">宣传大使：浪子之心科技</a><br/>
@@ -26,7 +26,7 @@
 ## 🏗️ 注意事项【一定要看完！】
 
 - 【商用说明】本项目作为sdk可免费商用，本项目非无私奉献核心代码与学术研究，仅仅是提供给大家免费使用，所以请攻击者或同行手下留情，核心不会开源的。莫要凉了这炽热的心~
-- 本项目两个实例化类涉及api_key参数，请到：【https://lstmsync.andclaw.cn/】注册获取。注意！api_key是永久有效的！
+- 本项目两个实例化类涉及api_key参数，请到：<a href="https://lstmsync.andclaw.cn/"> 注册地址 </a> 来注册获取。注意！api_key是永久有效的！
 - 音频必须为16khz格式。
 - 模型不含带超分功能，所以推理视频一定要清晰！清晰！清晰！不然如果推理视频不清晰，推理出来也不清晰！
 - 注意！注意！注意！切勿修改权重onnx文件名称！
