@@ -1,5 +1,4 @@
 
-https://github.com/user-attachments/assets/da32fb0d-0392-4533-bb52-ac46cf19f378
 <h1 align="center">LstmSync-V2</h1>
 <div align="center">
 <h2 align="center">超轻量流式数字人泛化模型！效果可行能否给个小星星！</h2>
