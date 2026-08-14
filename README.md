@@ -63,7 +63,7 @@
 ## 📑 使用说明
 
 - 注册api_key地址：
-- 下载权重文件压缩包zip：https://pan.baidu.com/s/1IuYvbpCD1tOkyyiq_uIYvw 提取码: maiw
+- 下载权重文件压缩包zip：https://pan.baidu.com/s/1g4BxwWvtvTiG8hq2Ib0P8w?pwd=kf8p 提取码: kf8p
 - 下载后直接在根目录解压zip，目录结构：
 ```
 checkpoints
