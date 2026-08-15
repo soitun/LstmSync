@@ -19,7 +19,9 @@
   
 ## 📖 计划
 
-- `2026/09/01`: web版页面。【完成】 一键包地址：https://pan.baidu.com/s/1Mvl-Kg_HxXb12-qZPvqLuQ?pwd=i4ua 提取码: i4ua 
+- `2026/09/01`: web版页面。【完成】
+  一键包地址：https://pan.baidu.com/s/1Mvl-Kg_HxXb12-qZPvqLuQ?pwd=i4ua 提取码: i4ua 
+  webui开源地址：https://github.com/oneCodeSuperman/LstmSync-v2-WebUI
 - `2026/09/15`: 对trt推理加速的支持。
 - `2026/10/15`: 对cpu、mac的支持。
 
