@@ -68,7 +68,9 @@
 - 下载权重文件压缩包zip：
   百度云盘：https://pan.baidu.com/s/1g4BxwWvtvTiG8hq2Ib0P8w?pwd=kf8p 提取码: kf8p
   夸克云盘：https://pan.quark.cn/s/1baabc051094
-- 无需环境一键包地址：https://pan.baidu.com/s/1Mvl-Kg_HxXb12-qZPvqLuQ?pwd=i4ua 提取码: i4ua 
+- 无需环境一键包地址：
+  百度云盘地址：https://pan.baidu.com/s/1ljfhqCgPjG-u5oga7a1fkA?pwd=h9pi 提取码: h9pi 
+  夸克云盘地址：https://pan.quark.cn/s/065b1a7d25bb
 - 下载后直接在根目录解压zip，目录结构：
 ```
 checkpoints
