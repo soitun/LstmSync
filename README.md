@@ -20,10 +20,11 @@
 ## 📖 计划
 
 - `2026/09/01`: web版页面。【完成】
-  一键包地址：https://pan.baidu.com/s/1Mvl-Kg_HxXb12-qZPvqLuQ?pwd=i4ua 提取码: i4ua 
+  一键包百度云盘：https://pan.baidu.com/s/1i0WbTx0Paf-YjGjgB_aqPA?pwd=rhja 提取码: rhja
+  一键包夸克网盘：https://pan.quark.cn/s/c2841cab6725
   webui开源地址：https://github.com/oneCodeSuperman/LstmSync-v2-WebUI
-- `2026/09/15`: 对trt推理加速的支持。
-- `2026/10/15`: 对cpu、mac的支持。
+- `2026/09/15`: 对trt推理加速的支持【完成】
+- `2026/10/15`: 对cpu、mac的支持。【已完成cpu适配，mac扩展待完成】
 
 ## 🏗️ 注意事项【一定要看完！】
 
@@ -66,11 +67,11 @@
 
 - 注册api_key地址：https://lstmsync.andclaw.cn/
 - 下载权重文件压缩包zip：
-  百度云盘：https://pan.baidu.com/s/1g4BxwWvtvTiG8hq2Ib0P8w?pwd=kf8p 提取码: kf8p
-  夸克云盘：https://pan.quark.cn/s/1baabc051094
+  百度云盘：https://pan.baidu.com/s/1JBEGOHDsrn1_P8As9Y-zPQ?pwd=yvjk 提取码: yvjk
+  夸克云盘：https://pan.quark.cn/s/f8c6f97c99e2
 - 无需环境一键包地址：
-  百度云盘地址：https://pan.baidu.com/s/1ljfhqCgPjG-u5oga7a1fkA?pwd=h9pi 提取码: h9pi 
-  夸克云盘地址：https://pan.quark.cn/s/065b1a7d25bb
+  百度云盘地址：https://pan.baidu.com/s/1i0WbTx0Paf-YjGjgB_aqPA?pwd=rhja 提取码: rhja
+  夸克云盘地址：https://pan.quark.cn/s/c2841cab6725
 - 下载后直接在根目录解压zip，目录结构：
 ```
 checkpoints
@@ -93,8 +94,7 @@ pip install -r requirements.txt // 50系显卡，python3.10版本支持
 ## 联系
 |  如需商务合作，加微信| 加群反馈与技术交流                                                                       |
 |-------------------|------------------------------------------------------------------------------------------|
-| ![微信](https://github.com/user-attachments/assets/e95e42a2-a6ec-4fbd-b65a-28a08aa11eaf) | ![微信群聊](https://github.com/user-attachments/assets/291b2914-19e4-45b2-9633-7d0b5bfaeb95) |
-
+| ![微信](https://github.com/user-attachments/assets/e95e42a2-a6ec-4fbd-b65a-28a08aa11eaf) | ![微信群聊](https://github.com/user-attachments/assets/d568b02b-d237-4d2b-8a44-8da76ad62aa8) |
 
 
 
