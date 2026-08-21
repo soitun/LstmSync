@@ -26,6 +26,21 @@
 # 或使用 onnxruntime (CPU版本)
 onnxruntime-gpu==1.18.1
 
+# ========== ONNX Runtime 跨平台说明（inference.py 会按 ort.get_available_providers() 自动判断） ==========
+# Windows  + NVIDIA GPU      -> 上面这行 onnxruntime-gpu 即可；推理走 TensorRT → CUDA → CPU
+# Windows  + 任意 GPU        -> pip uninstall onnxruntime-gpu && pip install onnxruntime-directml
+#                                推理时 --device mps，会使用 DmlExecutionProvider（DirectML）
+# Linux    + NVIDIA GPU      -> onnxruntime-gpu    （CUDA → CPU）
+# macOS    Apple Silicon     -> pip uninstall onnxruntime-gpu && pip install onnxruntime-coreml
+#                                或 pip install onnxruntime>=1.17   （--device mps → CoreML → CPU）
+# 仅 CPU                     -> pip uninstall onnxruntime-gpu && pip install onnxruntime
+#
+# 注意：onnxruntime / onnxruntime-gpu / onnxruntime-directml / onnxruntime-coreml 互斥，切换平台时先卸载再装
+# CoreMLExecutionProvider 仅在 macOS / iOS 可用；Windows 上 inference 即便传 "mps" 也会被
+# _get_ort_providers() 动态识别为 DirectML（如果装了 onnxruntime-directml）否则退回 CPU。
+# 这也是 onnxruntime_inference_collection.py#L489-518 那段 fallback 只对 TensorRT/MIGraphX
+# 做特殊处理的根本原因（CoreML/Dml 当前版本都没有跨 EP 的 fallback 链路）。
+
 # Computer Vision
 opencv-python>=4.8.0
 Pillow>=10.0.0
@@ -33,6 +48,7 @@ kornia>=0.7.0
 
 # Face Detection
 insightface>=0.7.3
+mediapipe
 
 # Audio Processing
 soundfile>=0.12.0

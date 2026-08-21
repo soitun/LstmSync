@@ -19,8 +19,8 @@ def run_preprocess():
     输出：./1 目录下的 .dat/.npy 文件
     """
     pre = Preprocessor(
-        face_size=256,                        # 人脸大小，可选 256 或 384，需与模型匹配
-        vae_encoder_path="./checkpoints/256.encoder.onnx",  # 256选择256.encoder.onnx，384选择384.encoder.onnx，需与模型匹配
+        face_size=384,                        # 人脸大小，可选 256 或 384，需与模型匹配
+        vae_encoder_path="./checkpoints/384.encoder.onnx",  # 256选择256.encoder.onnx，384选择384.encoder.onnx，需与模型匹配
         device="cuda",                          # 推理设备："cuda" 或 "cpu", cuda:0等指定具体GPU
         api_key="xxx", # https://lstmsync.andclaw.cn/ 注册获取
     )
@@ -45,12 +45,12 @@ def run_inference():
     输出：最终合成视频
     """
     infer = Inference(
-        human_path="./checkpoints/256.m.onnx",     # 要与face_size匹配，256选择256.m.onnx，384选择384.m.onnx
+        human_path="./checkpoints/384.m.onnx",     # 要与face_size匹配，256选择256.m.onnx，384选择384.m.onnx
         vae_decoder_path=None,                     # None则自动从human_path同目录获取，256选择256.decoder.onnx，384选择384.decoder.onnx，需与模型匹配
         hubert_path="./checkpoints/chinese-hubert-large/",  # HuBERT模型目录
         batch_size=4,                   # 推理批次大小，显存不足可调小(2或1)
         sync_offset=0,                  # 音视频同步偏移(帧)，正数=音频延后，负数=音频提前
-        device="cuda",                  # 推理设备："cuda" / "cpu" / "cuda:0" 等，cuda:0等指定具体GPU
+        device="cuda",                  # 推理设备："cuda" / "cpu" / "mps" / "mps:0" / "cuda:0" 等，cuda:0等指定具体GPU
         data_load_mode="auto",          # 视频数据加载模式：auto(自动)/full(全量)/streaming(流式)
         audio_mode="full",              # 音频模式：full(全量)/streaming(流式，长音频推荐)
         api_key="xxx", # https://lstmsync.andclaw.cn/ 注册获取
