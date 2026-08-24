@@ -68,7 +68,7 @@
 - 注册api_key地址：https://lstmsync.andclaw.cn/
 - 下载权重文件压缩包zip：
   百度云盘：https://pan.baidu.com/s/1JBEGOHDsrn1_P8As9Y-zPQ?pwd=yvjk 提取码: yvjk
-  夸克云盘：https://pan.quark.cn/s/f8c6f97c99e2
+  夸克云盘：https://pan.quark.cn/s/e6f70c15a8a6
 - 无需环境一键包地址：
   百度云盘地址：https://pan.baidu.com/s/1i0WbTx0Paf-YjGjgB_aqPA?pwd=rhja 提取码: rhja
   夸克云盘地址：https://pan.quark.cn/s/c2841cab6725
