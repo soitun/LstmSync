@@ -19,8 +19,8 @@ def run_preprocess():
     输出：./1 目录下的 .dat/.npy 文件
     """
     pre = Preprocessor(
-        face_size=384,                        # 人脸大小，可选 256 或 384，需与模型匹配
-        vae_encoder_path="./checkpoints/384.encoder.onnx",  # 256选择256.encoder.onnx，384选择384.encoder.onnx，需与模型匹配
+        face_size=256,                        # 人脸大小，可选 256 或 384，需与模型匹配
+        vae_encoder_path="./checkpoints/256.encoder.onnx",  # 256选择256.encoder.onnx，384选择384.encoder.onnx，需与模型匹配
         device="cuda",                          # 推理设备："cuda" 或 "cpu", cuda:0等指定具体GPU
         api_key="xxx", # https://lstmsync.andclaw.cn/ 注册获取
     )

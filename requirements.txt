@@ -61,6 +61,10 @@ tqdm>=4.65.0
 cryptography>=41.0.0
 PyJWT>=2.0.0
 
+# 可选，直播使用
+pyvirtualcam 
+pyaudio
+
 # System requirement: ffmpeg (not a Python package)
 # Install via: conda install -c conda-forge ffmpeg
 # Or download from: https://ffmpeg.org/download.html
