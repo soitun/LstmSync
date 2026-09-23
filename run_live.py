@@ -92,6 +92,8 @@ if __name__ == "__main__":
             vae_decoder_path=None,
             hubert_path="./checkpoints/chinese-hubert-large/",
             device="cuda",
+            scale_h=1.6,
+            scale_w=3.6,
             video_load_mode="full",
             audio_loop_mode="random",
             frame_w=None,

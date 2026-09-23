@@ -50,6 +50,8 @@ def run_inference():
         hubert_path="./checkpoints/chinese-hubert-large/",  # HuBERT模型目录
         batch_size=4,                   # 推理批次大小，显存不足可调小(2或1)
         sync_offset=0,                  # 音视频同步偏移(帧)，正数=音频延后，负数=音频提前
+        scale_h=1.6,                    # 人脸缩放比例，可选 1.6 或 3.6
+        scale_w=3.6,                    # 人脸缩放比例，可选 1.6 或 3.6
         device="cuda",                  # 推理设备："cuda" / "cpu" / "mps" / "mps:0" / "cuda:0" 等，cuda:0等指定具体GPU
         data_load_mode="auto",          # 视频数据加载模式：auto(自动)/full(全量)/streaming(流式)
         audio_mode="full",              # 音频模式：full(全量)/streaming(流式，长音频推荐)
